@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+
+} */
+
+
+/* logo area */
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+#navbar img{
+    width: 55px;
+    height:55px;
+}
+#navbar div{
+    display: flex;
+    flex-direction: column;
+}
+#navbar h1{
+    position: relative;
+    right: 12px;
+}
+
+/* chatting area */
+.center {
+    display: flex;
+    justify-content: center;
+}
+.center h2{
+    text-decoration: underline;
+
+}
+.container{
+    margin: auto;
+    max-width: 50%;
+    border: 2px solid black;
+    height: 60vh;
+    background-color: rgb(165, 245, 225);
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.message {
+    border: 2px solid black;
+    margin: 6px 5px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    max-width: 75%;
+}
+.right{
+    background-color: rgb(125, 255, 125);
+    align-self:flex-end;
+}
+.left{
+    align-self:flex-start;
+    background-color: rgb(215, 255, 215);
+}
+
+/* typearea */
+
+
+.typearea{
+    display: flex;
+    justify-content: center;
+}
+#typearea{
+    width: 521px;
+    margin: 0px 0px;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+#btn{
+    margin: 0px 0px;
+    border-radius: 8px;
+    width: 91px;
+    padding: 8px 5px;
+    font-weight: bold;
+}
+
+
+
